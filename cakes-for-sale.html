@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Special Cakes for All Occasions</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    </head>
+    <body>
+        <div id="banner">
+            <div id="banner-heading">
+                <a href="index.html"
+                    ><img id="logo" src="images/cake.png" alt="cake icon"
+                /></a>
+                <div id="banner-text">
+                    <h1>Special Cakes</h1>
+                    <h2>for All Occasions</h2>
+                </div>
+            </div>
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="cakes-for-sale.html">Cakes For Sale</a>
+                <a href="contact-us.html">Contact Us</a>
+                <a href="about.html">About</a>
+            </div>
+            <img
+                id="banner-image"
+                src="images/banner.png"
+                alt="picture of cake"
+            />
+        </div>
+
+        <div id="content">
+        <h1>Cakes for Sale</h1>
+        <ul>
+            <li>Speciality cakes</li>
+            <li>Flavoured cakes</li>
+            <li>Cheesecakes</li>
+            <li>Brownies</li>
+            <li>Cupcakes</li>
+            <li>Macarons</li>
+        </ul>
+
+        <h2>Prices</h2>
+        <table>
+            <tr>
+                <th>Cake Size</th>
+                <th>Suitable for</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Small</td>
+                <td>8-10</td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>Medium</td>
+                <td>10-12</td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td>Large</td>
+                <td>16-20</td>
+                <td>$100.00</td>
+            </tr>
+        </table>
+
+        <h2>How to order</h2>
+        <p>
+            If you’re interested in ordering a cake for your special occasion,
+            let us know!
+        </p>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td><input id="name" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td><input id="email" type="email" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone-number">Phone number</label>
+                    </td>
+                    <td><input id="phone-number" type="tel" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cake-size">Cake size</label>
+                    </td>
+                    <td>
+                        <select id="cake-size">
+                            <option>-- Choose cake size --</option>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date required</label>
+                    </td>
+                    <td><input id="date" type="date" /></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>
